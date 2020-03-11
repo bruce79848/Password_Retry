@@ -7,6 +7,6 @@ while x > 0:
 		break
 	else:
 		if x > 0:
-			print('You can still try', x , 'times.')
+			print('Wrong password, you can still try', x , 'times.')
 		else:
-			print('Please contact your bank.')
+			print('The retry chances are used up, please contact your bank.')
